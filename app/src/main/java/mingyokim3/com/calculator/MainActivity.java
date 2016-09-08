@@ -136,23 +136,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    //activated by "C" button
-    public void resetAll (View view) {
-        TextView display = (TextView) findViewById(R.id.disp);
-
-        //initialize all the parameters
-        op2_string="";
-        operation_flag=0;
-
-        op1_digit_count=0;
-        op2_digit_count=0;
-
-        //Show empty display on screen
-        display_value="";
-        display.setText(display_value);
-    }
-
-
     //activated by "=" button
     public void enter (View view) {
         TextView display = (TextView) findViewById(R.id.disp);
@@ -210,5 +193,21 @@ public class MainActivity extends AppCompatActivity {
             //Second operand exceeds max capacity
             display.setText(R.string.error);
         }
+    }
+
+    //activated by "C" button
+    public void resetAll (View view) {
+        TextView display = (TextView) findViewById(R.id.disp);
+
+        //initialize all the parameters
+        op2_string="";
+        operation_flag=0;
+
+        op1_digit_count=0;
+        op2_digit_count=0;
+
+        //Show empty display on screen
+        display_value="";
+        display.setText(display_value);
     }
 }
