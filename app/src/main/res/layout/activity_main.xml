@@ -121,7 +121,15 @@
             android:onClick="inputOp"/>
     </TableRow>
     <TextView
+        android:text="@string/readme"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"/>
+    <TextView
         android:text="@string/introduction"
+        android:textSize="25sp"
+        android:layout_marginTop="20sp"/>
+    <TextView
+        android:text="@string/introduction2"
         android:textSize="25sp"
         android:layout_marginTop="20sp"/>
 </TableLayout>

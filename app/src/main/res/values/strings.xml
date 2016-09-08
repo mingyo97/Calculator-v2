@@ -18,6 +18,11 @@
     <string name="multiply">*</string>
     <string name="substract">-</string>
     <string name="add">+</string>
-    <string name="introduction">Press C after each computation</string>
-    <string name="divisionError">Cannot divide by 0</string>
+    <string name="readme">Read me! (Please scroll down)</string>
+    <string name="introduction">- Press C after each computation</string>
+    <string name="introduction2">- Only enter two operands at a time with one operator in between</string>
+    <string name="divisionError">E(press C)</string>
+    <string name="error">E(press C)</string>
+    <string name="notFound">E(press C)</string>
+    <string name="empty">E(press C)</string>
 </resources>
