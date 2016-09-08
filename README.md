@@ -12,4 +12,4 @@ show off your mad skills (e.g. trig functions, hex calculator, exp functions, et
 
 #Your comments or assumptions
 
-Integer is the only type of input. User only inputs two operands at a time with a single operator in between. User presses C(reset) after each computation.User can only enter a maximum of 5 digits for each operand and cannot compute a result that is bigger than a billion.
+Integer is the only type of input. User only inputs two operands at a time with a single operator in between. User presses C(reset) after each computation. User can only enter a maximum of 5 digits for each operand and cannot compute a result that is bigger than a billion.
