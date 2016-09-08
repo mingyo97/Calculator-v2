@@ -11,4 +11,8 @@ The manditory functions are the +,-,x and / while the other ones are optional an
 show off your mad skills (e.g. trig functions, hex calculator, exp functions, etc.).
 
 #Your comments or assumptions
-- <integer is the only type of input, user only inputs two operands at a time with a single operator in between, user presses C(reset) after each computation, user does not input operands with more than 8 digits>
+
+integer is the only type of input
+user only inputs two operands at a time with a single operator in between
+user presses C(reset) after each computation
+user can only enter a maximum of 5 digits for each operand and cannot compute a result that is bigger than a billion
