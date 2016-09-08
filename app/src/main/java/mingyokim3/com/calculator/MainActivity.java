@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
 
         //check that when "=" is pressed, there are two operands
         if(op1_digit_count==0||op2_digit_count==0){
-            //there are more than one operands missing; error message
+            //there is at least one operand missing; error message
             display.setText(R.string.empty);
         }
         //Proceed if second operand does not exceed max capacity
